@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership - Mafia De Florida</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" class="logo-text">Mafia De Florida</a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="membership.html" class="nav-link">Membership</a></li>
+                    <li><a href="news.html" class="nav-link">News</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="support.html" class="nav-link">Support</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="membership">
+        <div class="container">
+            <h1>Join the Mafia Family</h1>
+            <p>Become a part of the most powerful family in Florida. Fill out the form below to join the family and start your rise to the top.</p>
+            <form class="membership-form">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <label for="role">Desired Role</label>
+                <select id="role" name="role">
+                    <option value="soldier">Soldier</option>
+                    <option value="capo">Capo</option>
+                    <option value="don">Don</option>
+                </select>
+
+                <label for="message">Why do you want to join the family?</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Join Now</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mafia De Florida. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
